@@ -21,7 +21,7 @@ export const FetchCheck = () => {
       })
      .then(setUser)
      .catch(() => setError('An error occurred while using fetch.'));
-  },);
+  },[]);
 
   if (error) return <div>{error}</div>;
   if (!user) return <div>Loading...</div>;
