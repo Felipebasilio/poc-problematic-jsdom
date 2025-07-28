@@ -1,3 +1,4 @@
 onlyBuiltDependencies:
   - cypress
   - msw
+  - unrs-resolver
